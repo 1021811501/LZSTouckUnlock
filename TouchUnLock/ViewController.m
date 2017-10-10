@@ -7,18 +7,25 @@
 //
 
 #import "ViewController.h"
-
+#import "DGTouchUnlockView.h"
 @interface ViewController ()
-
+@property(nonatomic, strong)NSMutableArray *pointArray;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
+    DGTouchUnlockConfiguration *configuration = [[DGTouchUnlockConfiguration alloc] init];
+    configuration.colNum = 3;
+    configuration.rowNum = 4;
+    configuration.btnHeight = 50;
+    configuration.btnWidth = 50;
+    DGTouchUnlockView *view = [DGTouchUnlockView viewWithConfiguration:configuration];
+    view.frame = CGRectMake(0, 100, 300, 400);
+    [self.view addSubview:view];
 
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

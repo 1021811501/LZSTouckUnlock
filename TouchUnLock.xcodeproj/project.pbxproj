@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A18A60DB1F7391A1003A50F8 /* DGTouchUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = A18A60DA1F7391A1003A50F8 /* DGTouchUnlockView.m */; };
+		A18A60DE1F7398E4003A50F8 /* DGTouchUnlock_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = A18A60DC1F7398E4003A50F8 /* DGTouchUnlock_selected.png */; };
+		A18A60DF1F7398E4003A50F8 /* DGTouchUnlock_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A18A60DD1F7398E4003A50F8 /* DGTouchUnlock_normal.png */; };
 		A1947E701F70FCE300B73828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1947E6F1F70FCE300B73828 /* main.m */; };
 		A1947E731F70FCE300B73828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1947E721F70FCE300B73828 /* AppDelegate.m */; };
 		A1947E761F70FCE300B73828 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1947E751F70FCE300B73828 /* ViewController.m */; };
@@ -16,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A18A60D91F7391A1003A50F8 /* DGTouchUnlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGTouchUnlockView.h; sourceTree = "<group>"; };
+		A18A60DA1F7391A1003A50F8 /* DGTouchUnlockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGTouchUnlockView.m; sourceTree = "<group>"; };
+		A18A60DC1F7398E4003A50F8 /* DGTouchUnlock_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DGTouchUnlock_selected.png; sourceTree = "<group>"; };
+		A18A60DD1F7398E4003A50F8 /* DGTouchUnlock_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DGTouchUnlock_normal.png; sourceTree = "<group>"; };
 		A1947E6B1F70FCE300B73828 /* TouchUnLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchUnLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1947E6F1F70FCE300B73828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1947E711F70FCE300B73828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,10 +65,14 @@
 		A1947E6D1F70FCE300B73828 /* TouchUnLock */ = {
 			isa = PBXGroup;
 			children = (
+				A18A60DD1F7398E4003A50F8 /* DGTouchUnlock_normal.png */,
+				A18A60DC1F7398E4003A50F8 /* DGTouchUnlock_selected.png */,
 				A1947E711F70FCE300B73828 /* AppDelegate.h */,
 				A1947E721F70FCE300B73828 /* AppDelegate.m */,
 				A1947E741F70FCE300B73828 /* ViewController.h */,
 				A1947E751F70FCE300B73828 /* ViewController.m */,
+				A18A60D91F7391A1003A50F8 /* DGTouchUnlockView.h */,
+				A18A60DA1F7391A1003A50F8 /* DGTouchUnlockView.m */,
 				A1947E771F70FCE300B73828 /* Main.storyboard */,
 				A1947E7A1F70FCE300B73828 /* Assets.xcassets */,
 				A1947E7C1F70FCE300B73828 /* LaunchScreen.storyboard */,
@@ -139,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1947E7E1F70FCE300B73828 /* LaunchScreen.storyboard in Resources */,
+				A18A60DF1F7398E4003A50F8 /* DGTouchUnlock_normal.png in Resources */,
 				A1947E7B1F70FCE300B73828 /* Assets.xcassets in Resources */,
 				A1947E791F70FCE300B73828 /* Main.storyboard in Resources */,
+				A18A60DE1F7398E4003A50F8 /* DGTouchUnlock_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1947E761F70FCE300B73828 /* ViewController.m in Sources */,
+				A18A60DB1F7391A1003A50F8 /* DGTouchUnlockView.m in Sources */,
 				A1947E731F70FCE300B73828 /* AppDelegate.m in Sources */,
 				A1947E701F70FCE300B73828 /* main.m in Sources */,
 			);
@@ -314,6 +328,7 @@
 				A1947E841F70FCE300B73828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
